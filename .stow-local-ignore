@@ -1,0 +1,9 @@
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.*
+
+\.editorconfig
+
+\.DS_Store

@@ -1,0 +1,17 @@
+import = ["~/.config/alacritty/catppuccin_latte.toml"]
+
+[window]
+blur = true
+decorations = "buttonless"
+opacity = 0.8
+option_as_alt = "Both"
+padding = {x = 32, y = 32}
+startup_mode = "SimpleFullscreen"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+offset.y = 24
+size = 20
+
+[cursor]
+style.shape = "Underline"

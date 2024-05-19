@@ -1,0 +1,29 @@
+# Convenience
+alias x="exit"
+alias yeet="rm -rf node_modules; rm package-lock.json; npm install"
+
+# List
+alias l="ls -lah"
+
+# Tools
+alias taze="npx taze -l --sort \"name-asc\""
+alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+alias gt="/usr/local/bin/gittower ."
+
+# Git
+alias nah="git reset --hard; git clean -df"
+alias gst='git status'
+alias glog='git log --oneline --decorate --graph'
+
+# Overrides
+alias cat="bat --theme=GitHub"
+alias l="eza -alF --no-permissions --no-user --no-time --group-directories-first --icons=always"
+
+# Paths
+alias code="cd ~/code"
+alias pack="cd ~/code/packages"
+alias desk="cd ~/Desktop"
+alias dvdw="cd ~/dvdw"
+
+# Misc
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
