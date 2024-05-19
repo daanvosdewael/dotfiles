@@ -50,6 +50,8 @@ setopt hist_find_no_dups
 # Keybinds
 bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
 
 # Aliases
 source $HOME/.aliases
