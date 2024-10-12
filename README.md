@@ -4,7 +4,7 @@ These are my dotfiles for setting up my development environment.
 
 ## Requirements
 
-Ensure that `Homebrew` and `GNU Stow` are installed:
+Ensure that you install `Homebrew` and `GNU Stow`:
 
 ```shell
 # Install Homebrew
