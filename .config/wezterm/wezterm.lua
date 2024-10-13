@@ -81,7 +81,18 @@ end)
 config.keys = {
 	{
 		key = "k",
-		mods = "CMD", action = wezterm.action.ClearScrollback 'ScrollbackAndViewport',
+		mods = "CMD",
+		action = wezterm.action.ClearScrollback 'ScrollbackAndViewport',
+	},
+	{
+		key = "[",
+		mods = "CMD",
+		action = wezterm.action.ActivateTabRelative(-1),
+	},
+	{
+		key = "]",
+		mods = "CMD",
+		action = wezterm.action.ActivateTabRelative(1),
 	},
 }
 
