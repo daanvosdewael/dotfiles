@@ -37,7 +37,6 @@ config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 -- Tab bar
 config.enable_tab_bar = true
-config.hide_tab_bar_if_only_one_tab = true
 config.show_new_tab_button_in_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
 config.tab_bar_at_bottom = true
