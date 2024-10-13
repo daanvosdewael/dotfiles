@@ -79,19 +79,39 @@ end)
 -- Keys
 config.keys = {
 	{
-		key = "k",
 		mods = "CMD",
+		key = "k",
 		action = wezterm.action.ClearScrollback 'ScrollbackAndViewport',
 	},
 	{
+		mods = "CMD|CTRL",
 		key = "[",
-		mods = "CMD",
 		action = wezterm.action.ActivateTabRelative(-1),
 	},
 	{
+		mods = "CMD|CTRL",
 		key = "]",
-		mods = "CMD",
 		action = wezterm.action.ActivateTabRelative(1),
+	},
+	{
+		mods = "CMD",
+		key = "[",
+		action = wezterm.action.ActivatePaneDirection "Prev",
+	},
+	{
+		mods = "CMD",
+		key = "]",
+		action = wezterm.action.ActivatePaneDirection "Next",
+	},
+	{
+		mods = "CMD",
+		key = "|",
+		action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" },
+	},
+	{
+		mods = "CMD",
+		key = "-",
+		action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" },
 	},
 }
 
