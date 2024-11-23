@@ -21,7 +21,7 @@ config.underline_thickness = 3
 config.default_cursor_style = "SteadyBar"
 
 -- Fonts
-config.font = wezterm.font({ family = "Fira Code" })
+config.font = wezterm.font("Cascadia Code NF", { weight = 350 })
 config.font_size = 22
 
 -- Color theme
